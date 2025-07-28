@@ -36,8 +36,6 @@ public class BeerDto {
     @Null
     private OffsetDateTime lastModifiedDate;
 
-    private Long isn;
-
     @Positive
     @NotNull
     private BigDecimal price;
