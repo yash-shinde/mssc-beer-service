@@ -23,7 +23,7 @@ public class BeerMapper {
                 .version(beer.getVersion() != null ? beer.getVersion().toString() : null)
                 .beerStyle(parseStyle(beer.getBeerStyle()))
                 .beerName(beer.getBeerName())
-                .upc(parseUpc(beer.getUpc()))
+                .upc(beer.getUpc())
                 .createdDate(toOffsetDateTime(beer.getCreatedDate()))
                 .lastModifiedDate(toOffsetDateTime(beer.getLastModifiedDate()))
                 .price(beer.getPrice())
